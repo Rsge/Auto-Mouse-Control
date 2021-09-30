@@ -7,11 +7,11 @@ dcs = [0]
 sleep_time = 0.8
 
 while True:
-    inp = input("How often?\n")
+    inp = input("How many times?\n")
     if not inp.isnumeric:
         exit()
     x = int(inp)
-    print("This'll take appr. {} s.\nPlease don't touch the mouse...".format(int(round(len(poss)) * sleep_time * x, 0)))
+    print("This'll take appr. {} s.\nPlease don't touch the mouse...".format(int(round(len(poss) * sleep_time * x, 0))))
 
     def click_move(xy, dc = False):
         mouse.move(xy[0], xy[1])
