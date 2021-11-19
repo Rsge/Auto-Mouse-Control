@@ -2,8 +2,11 @@
 
 import mouse, time
 
+# Points to click
 poss = [[1113, 263], [1511, 309], [929, 314], [1130, 826], [1132, 662], [81, 19], [1895, 20]]
+# Position indexes to double click
 dcs = [0]
+# Time in seconds between clicks
 sleep_time = 0.8
 
 def click_move(xy, dc = False):
