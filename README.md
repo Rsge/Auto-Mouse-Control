@@ -1,4 +1,4 @@
-#  Auto-Mouse-Control
+#  Auto Mouse Control
 
 Automatically moves and clicks the mouse in a pre-defined pattern to automate monotonous tasks.
 
