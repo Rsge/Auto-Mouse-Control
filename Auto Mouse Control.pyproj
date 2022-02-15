@@ -5,12 +5,12 @@
     <ProjectGuid>02d06b19-60e9-4964-8a9b-0dab4542765b</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Auto_Control.py</StartupFile>
+    <StartupFile>auto_control.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Auto-Mouse-Control</Name>
+    <Name>Auto Mouse Control</Name>
     <RootNamespace>Auto-Mausbewegung</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -22,8 +22,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Auto_Control.py" />
-    <Compile Include="Current_Position.py">
+    <Compile Include="auto_control.py" />
+    <Compile Include="current_position.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
