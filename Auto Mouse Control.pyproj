@@ -5,7 +5,7 @@
     <ProjectGuid>02d06b19-60e9-4964-8a9b-0dab4542765b</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>auto_control.py</StartupFile>
+    <StartupFile>AutoControl.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,8 +22,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="auto_control.py" />
-    <Compile Include="current_position.py">
+    <Compile Include="AutoControl.py" />
+    <Compile Include="CurrentPosition.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
