@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+"""Print the current X and Y of the mouse every second."""
+
 import mouse
 import time
 

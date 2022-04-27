@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
+"""Move and click or doubleclick the specified positions."""
+
 import mouse
 import time
 
 # Points to click
- POSITIONS = [
+POSITIONS = [
     [1113, 263],
     [1511, 309],
     [929, 314],
