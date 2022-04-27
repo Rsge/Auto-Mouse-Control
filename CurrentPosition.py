@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-import mouse, time
+import mouse
+import time
 
 while True:
     print("Current mouse position: {}".format(mouse.get_position()))
