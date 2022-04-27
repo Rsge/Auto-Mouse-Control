@@ -5,5 +5,5 @@ Automatically moves and clicks the mouse in a pre-defined pattern to automate mo
 `CurrentPosition.py` prints the current X and Y of the mouse every second.
 
 `AutoControl.py` moves and (double)clicks the specified positions.
-Input the positions into `poss` and the indexes of positions to double click in `dcs`.
-`sleep_time` is the time in seconds between clicks.
+Input the positions into `POSITIONS` and the indexes of positions to double click in `DOUBLE_CLICK_INDICES`.
+`SLEEP_TIME` is the time in seconds between clicks.
