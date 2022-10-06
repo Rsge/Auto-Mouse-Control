@@ -22,6 +22,7 @@ DOUBLE_CLICK_INDICES = [
 # Time in seconds between clicks
 SLEEP_TIME = 0.8
 
+
 def click_move(xy, dc = False):
     mouse.move(xy[0], xy[1])
     if dc:
