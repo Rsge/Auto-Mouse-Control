@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 """Move mouse to and click or doubleclick the specified positions."""
 
