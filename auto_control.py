@@ -2,7 +2,7 @@
 
 """Move mouse to and click or doubleclick the specified positions."""
 
-import mouse
+# Imports
 import time
 
 # Points to click
@@ -19,10 +19,18 @@ DOUBLE_CLICK_INDICES = [
 SLEEP_TIME = 0.8
 
 # String constants
+IMPORT_ERROR = "Error: Module \"{0}\" not installed.\nInstall using \"pip install {0}\" in console."
 INPUT_QUESTION = "How many times?\n"
-WAIT_TIME_MSG = "This'll take appr. {} s.\nPlease don't touch the mouse..."
+WAIT_TIME_MSG = "This will take appr. {} s.\nPlease don't touch the mouse..."
 RUN_COUNTER = "\t{}. run"
 DONE_MSG = "Done.\n"
+
+# Import non-default package.
+try:
+    import mouse
+except ModuleNotFoundError:
+    input(IMPORT_ERROR.format("mouse"))
+    exit(1)
 
 
 # Move and (double)click function
