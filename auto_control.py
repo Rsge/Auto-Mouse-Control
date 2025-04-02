@@ -34,7 +34,7 @@ except ModuleNotFoundError:
 
 
 # Move and (double)click function
-def click_move(xy, dc = False):
+def click_move(xy, dc=False):
     mouse.move(xy[0], xy[1])
     if dc:
         mouse.double_click()
